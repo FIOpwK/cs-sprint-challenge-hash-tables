@@ -22,10 +22,22 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
-1. Hashing functions
+1. Hashing functions 
+    - a data structure where elements are accessed via a keyword vs an index (as in a list)
+
 2. Collision resolution
+    - resolving a conflict of a slot not having an empty item. One way to resolve conflicts is to find anothe free slot.
+    - this is known as open addressing. Another way of conflict resolution is called linear probing. 
+
 3. Performance of basic hash table operations
+    - inserting into hash table is O(1)
+    - deleting from a hash table is O(1)
+    - searching a hash table is O(n)
+
 4. Load factor
+    - load factor is used to expand the size of the table, it gives us an indication of how many
+    - available slots in the table have been used. 
+    
 5. Automatic resizing
 6. Various use cases for hash tables
 
