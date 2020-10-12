@@ -37,7 +37,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 4. Load factor
     - load factor is used to expand the size of the table, it gives us an indication of how many
     - available slots in the table have been used. 
-    
+
 5. Automatic resizing
 6. Various use cases for hash tables
 
