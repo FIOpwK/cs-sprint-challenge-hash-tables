@@ -18,7 +18,7 @@ def intersection(arrays):
             if cache[integer] == length_of_lists:
                 result.append(integer)
 
-    return result
+    return resul
 
 
 if __name__ == "__main__":
