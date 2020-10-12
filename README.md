@@ -23,7 +23,7 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions 
-    - a data structure where elements are accessed via a keyword vs an index (as in a list)
+    - mapping of given data to another range of data which allows the new data to be mapped to an index
 
 2. Collision resolution
     - resolving a conflict of a slot not having an empty item. One way to resolve conflicts is to find anothe free slot.
