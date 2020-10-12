@@ -3,6 +3,14 @@ def has_negatives(a):
     YOUR CODE HERE
     """
     # Your code here
+    cache = {}
+    result = []
+
+    for n in a:
+        if cache.get(abs(n)) is not None:
+            result.append(abs(n))
+        else:
+            cache[abs(n)] = abs(n)
 
     return result
 
